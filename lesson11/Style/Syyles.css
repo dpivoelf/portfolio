@@ -1,0 +1,54 @@
+.background {
+    background-color: #fff;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.Japan {
+    border-radius: 100%;
+    background-color: rgb(255, 0, 0);
+    height: 150px;
+    width: 150px;
+}
+.instagram {
+    width: 500px;
+    height: 500px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(214deg, rgba(131,58,180,1), rgb(255, 191, 107))
+}
+.border-first{
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+    border: 20px solid rgb(255,255,255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.border-second{
+    width: 100px;
+    height: 100px;
+    border: 20px solid white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+.flare {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+    justify-content: left;
+    align-items: flex-end;
+    display: flex;
+    margin-bottom: 125px;
+}

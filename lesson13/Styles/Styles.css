@@ -1,0 +1,80 @@
+* {
+    margin-left: 10px;
+}
+body {
+    border-color: lightblue;
+    font-size: 30px;
+}
+a {
+    margin: 10px;
+}
+a:link {
+    color: rgb(51, 90, 33);
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: slateblue;
+}
+.main-first {
+    display: flex;
+    flex-direction: column;
+}
+a:active {
+    font-size: 35px;
+    color: violet;
+}
+.text {
+    width: 300px;
+    height: 55px;
+    font-size: 33px;
+}
+.purple-input:focus {
+    color: purple;
+}
+.green-input:focus {
+    color: green;
+}
+li:first-child {
+    color: greenyellow;
+}
+li:last-child {
+    color: hotpink;
+}
+.only-child:only-child{
+    color: lightseagreen;
+}
+table {
+    width: 300px;
+    margin: 5px;
+}
+td {
+    border: 1px solid black;
+}
+tr:nth-last-child(-n+2) {
+    color: burlywood;
+}
+span:not(.spcolored) {
+    color: rgb(117, 14, 117);
+}
+.types:first-of-type {
+    color: rebeccapurple;
+}
+.types:last-of-type {
+    color: darkred;
+}
+.text {
+    color: brown;
+    font-size: 32px;
+}
+.text::after {
+    content: "<-небольшой";
+    font-size: 25px;
+    color: black;
+}
+.text::before {
+    content: "Реально текстик->";
+    font-size: 25px;
+    color: black;
+}

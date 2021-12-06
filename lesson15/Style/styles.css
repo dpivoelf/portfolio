@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card {
+    width: 23%;
+    font-size: 25px;
+    border: 3px dashed black;
+    margin: 10px;
+}
+.header {
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+@media (max-width:700px) {
+    .card {
+        width: 46%;
+        font-size: 30px;
+    }
+}
+@media (max-width:500px) {
+    .card {
+        width: 100%;
+        font-size: 40px;
+    }
+}

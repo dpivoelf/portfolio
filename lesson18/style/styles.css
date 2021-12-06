@@ -1,0 +1,41 @@
+.container {
+    max-width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(120, 194, 163);
+    border: 1px solid black;
+}
+.right-part {
+    display: flex;
+    width: 23%;
+}
+.card {
+    width: 23%;
+    font-size: 25px;
+    margin: 10px;
+    border: 1px solid black;
+}
+@media (max-width:43rem) {
+    .card {
+        width: 46%;
+        font-size: 30px;
+    }
+}
+.btn-toolbar {
+    margin-left: 150px;
+    margin-top: 10px;
+    border: 1px solid black;
+    
+}
+.btn-group {
+    margin: 10px;
+    border: 1px solid black;
+}
+.nav {
+    border: 1px solid black;
+    padding-top: 5px;
+}

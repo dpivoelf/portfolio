@@ -1,0 +1,104 @@
+body { 
+    display: grid;
+    grid-template-areas: 
+      "header article ads"
+      "header article nav"
+      "header footer footer";
+    grid-template-rows: 275px 1fr 170px;  
+    grid-template-columns: 45% 1fr 25%;
+    height: 100vh;
+    margin: 0;
+    }  
+  /* Stack the layout on small devices/viewports. */
+  @media all and (max-width: 575px) {
+    body { 
+      grid-template-areas: 
+        "header"
+        "article"
+        "ads"
+        "nav"
+        "footer";
+      grid-template-rows: 80px 1fr 70px 1fr 70px;  
+      grid-template-columns: 1fr;
+   }
+  }
+  nav {
+    background: rgb(255, 255, 255);
+    }
+  #pageHeader {
+    grid-area: header;
+    }
+  #pageFooter {
+    grid-area: footer;
+    color: white;
+    }
+  #mainArticle { 
+    grid-area: article; 
+    color: white;     
+    }
+  #mainNav { 
+    grid-area: nav; 
+    color: white;
+    }
+  #siteAds { 
+    grid-area: ads; 
+    color: white;
+    } 
+  footer {
+    background: rgb(255, 0, 43);
+    }
+  article {
+    background: rgb(42, 18, 129);
+    }
+   ads {
+    background: gold;
+    }
+    nav {
+        background: rgb(0, 173, 145);
+    }
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+}
+a:hover {
+    color: rgb(147, 52, 255);
+    font-size: 30px;
+}
+.read-more {
+    box-shadow: rgb(83, 83, 83);
+    width: 356px;
+    height: 56px;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 150px;
+    padding-top: 10px;
+}
+.read-more:hover {
+    background-color: rgb(255, 255, 255);
+    border-top: 3px solid rgb(216, 216, 216);
+    border-left: 3px solid rgb(218, 218, 218);
+    border-bottom: 3px solid rgb(231, 231, 231);
+    border-right: 3px solid rgb(218, 218, 218);
+    width: 350px;
+    height: 50px;
+}
+.contacts {
+    margin-top: 350px;
+}
+h3 {
+    font-size: 30px;
+}
+.customers {
+    padding: 15px;
+}
+img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid white;
+    margin: 10px;
+}
+p {
+    padding: 5px;
+}

@@ -1,0 +1,27 @@
+.container{
+    min-width: 1000px;
+}
+.card-title {
+    border-radius: 30px;
+    background-color: rgb(255, 251, 0);
+    width: 27%;
+    height: 20px;
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    width: 100%;
+    color: rgb(128, 100, 100);
+    text-transform: uppercase;
+}
+.title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.card {
+    border: 1px ;
+}
